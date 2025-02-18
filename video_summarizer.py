@@ -1,3 +1,5 @@
+import os
+os.environ["STREAMLIT_WATCHDOG"] = "false"
 import re
 import torch
 import streamlit as st
